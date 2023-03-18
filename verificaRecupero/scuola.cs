@@ -24,6 +24,9 @@ namespace verificaRecupero
         {
             return alunni.count;
         }
-
+        public int ricercaPerCognome()
+        {
+            return alunni.Where;
+        }
     }
 }
