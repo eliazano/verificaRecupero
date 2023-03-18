@@ -19,5 +19,11 @@ namespace verificaRecupero
         {
             alunni.Add(alunno);
         }
+
+        public int numeroAlunni()
+        {
+            return alunni.count;
+        }
+
     }
 }
