@@ -24,6 +24,18 @@ namespace verificaRecupero
         {
             return nome + cognome + età + cittàResidenza;
         }
+        
+        public string classi()
+        {
+            if(età < 16)
+            {
+                return "biennio";
+            }
+            else
+            {
+                return "triennio";
+            }
+        }
 
     }
 }
